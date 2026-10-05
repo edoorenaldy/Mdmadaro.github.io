@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katalog Produk</title>
+    <title>TEKIRO Catalogue</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,72 +13,39 @@
         }
         .container {
             max-width: 600px;
-            margin: auto;
-            padding: 20px;
+            margin: 40px auto;
+            padding: 30px;
             border: 1px solid #ddd;
             border-radius: 10px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
             background: #fff;
-            display: none;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        #searchBox {
-            margin-bottom: 20px;
-            padding: 10px;
-            width: 80%;
-            max-width: 400px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        h1 { margin-bottom: 8px; }
+        h2 { margin-top: 0; }
+        ul {
+            text-align: left;
+            display: inline-block;
+            margin: 10px auto;
         }
         .pdf-button {
             display: inline-block;
-            margin-top: 15px;
-            padding: 10px 18px;
+            margin-top: 20px;
+            padding: 12px 20px;
             background: #222;
             color: #fff;
             text-decoration: none;
             border-radius: 6px;
         }
-        .pdf-button:hover {
-            opacity: 0.85;
-        }
+        .pdf-button:hover { opacity: 0.85; }
         .catalog-note {
             color: #666;
             font-size: 14px;
         }
     </style>
-    <script>
-        function searchProduct() {
-            let input = document.getElementById('searchBox').value.toLowerCase().trim();
-            let products = document.getElementsByClassName('container');
-
-            for (let i = 0; i < products.length; i++) {
-                let title = products[i].getElementsByTagName("h2")[0].innerText.toLowerCase();
-                let description = products[i].getElementsByTagName("ul")[0].innerText.toLowerCase();
-
-                if (input === "" || title.includes(input) || description.includes(input)) {
-                    products[i].style.display = "block";
-                } else {
-                    products[i].style.display = "none";
-                }
-            }
-        }
-
-        window.addEventListener("DOMContentLoaded", function () {
-            searchProduct();
-        });
-    </script>
 </head>
 <body>
-    <h1>Daftar Produk</h1>
-    <input type="text" id="searchBox" onkeyup="searchProduct()" placeholder="Cari produk...">
+    <h1>TEKIRO Catalogue</h1>
 
-    <!-- TEKIRO AU-LS2042 -->
     <div class="container">
         <h2>AU-LS2042 TEKIRO</h2>
         <p><strong>Spesifikasi:</strong></p>
@@ -94,71 +61,6 @@
            rel="noopener">
             Lihat Katalog PDF
         </a>
-    </div>
-
-    <div class="container">
-        <h2>Ball Valve 3 Inch JIS 10K FCTB</h2>
-        <img src="D:\KATALOG\PIC\ball_valve_3inch.jpg" alt="Ball Valve 3 Inch JIS 10K FCTB">
-        <p><strong>Spesifikasi:</strong></p>
-        <ul>
-            <li>Ukuran: 3 Inch</li>
-            <li>Standar: JIS 10K</li>
-            <li>Bahan: Cast Iron</li>
-            <li>Koneksi: Flange</li>
-            <li>Handle: Lever</li>
-        </ul>
-    </div>
-
-    <div class="container">
-        <h2>Gate Valve 4 Inch JIS 10K</h2>
-        <img src="D:\KATALOG\PIC\gate_valve_4inch.jpg" alt="Gate Valve 4 Inch JIS 10K">
-        <p><strong>Spesifikasi:</strong></p>
-        <ul>
-            <li>Ukuran: 4 Inch</li>
-            <li>Standar: JIS 10K</li>
-            <li>Bahan: Cast Iron</li>
-            <li>Koneksi: Flange</li>
-            <li>Operasi: Handwheel</li>
-        </ul>
-    </div>
-
-    <div class="container">
-        <h2>Globe Valve 2 Inch JIS 10K</h2>
-        <img src="D:\KATALOG\PIC\globe_valve_2inch.jpg" alt="Globe Valve 2 Inch JIS 10K">
-        <p><strong>Spesifikasi:</strong></p>
-        <ul>
-            <li>Ukuran: 2 Inch</li>
-            <li>Standar: JIS 10K</li>
-            <li>Bahan: Cast Iron</li>
-            <li>Koneksi: Flange</li>
-            <li>Operasi: Handwheel</li>
-        </ul>
-    </div>
-
-    <div class="container">
-        <h2>Check Valve 5 Inch JIS 10K</h2>
-        <img src="D:\KATALOG\PIC\check_valve_5inch.jpg" alt="Check Valve 5 Inch JIS 10K">
-        <p><strong>Spesifikasi:</strong></p>
-        <ul>
-            <li>Ukuran: 5 Inch</li>
-            <li>Standar: JIS 10K</li>
-            <li>Bahan: Cast Iron</li>
-            <li>Koneksi: Flange</li>
-            <li>Jenis: Swing Type</li>
-        </ul>
-    </div>
-
-    <div class="container">
-        <h2>Butterfly Valve 6 Inch JIS 10K</h2>
-        <img src="D:\KATALOG\PIC\butterfly_valve_6inch.jpg" alt="Butterfly Valve 6 Inch JIS 10K">
-        <p><strong>Spesifikasi:</strong></p>
-        <ul>
-            <li>Ukuran: 6 Inch</li>
-            <li>Standar: JIS 10K</li>
-            <li>Bahan: Cast Iron</li>
-            <li>Koneksi: Flange</li>
-            <li>Operasi: Lever/Gear</li>
-        </ul>
     </div>
 </body>
 </html>
