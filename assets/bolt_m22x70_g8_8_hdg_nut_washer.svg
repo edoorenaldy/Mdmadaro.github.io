@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="533" viewBox="0 0 800 533">
+<defs>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f4"/><stop offset=".28" stop-color="#9b9b9b"/><stop offset=".5" stop-color="#eeeeee"/><stop offset=".72" stop-color="#777"/><stop offset="1" stop-color="#d8d8d8"/></linearGradient>
+<linearGradient id="darkmetal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e9e9e9"/><stop offset=".5" stop-color="#8c8c8c"/><stop offset="1" stop-color="#cfcfcf"/></linearGradient>
+<filter id="shadow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="800" height="533" fill="white"/>
+<ellipse cx="410" cy="410" rx="330" ry="55" fill="#bbb" opacity=".25" filter="url(#shadow)"/>
+<!-- bolt shaft -->
+<g transform="rotate(-15 410 240)">
+<rect x="150" y="190" width="500" height="105" rx="48" fill="url(#metal)" stroke="#666" stroke-width="3"/>
+<!-- thread grooves -->
+<g stroke="#666" stroke-width="7" opacity=".8">
+<line x1="205" y1="198" x2="205" y2="288"/><line x1="227" y1="198" x2="227" y2="288"/><line x1="249" y1="198" x2="249" y2="288"/><line x1="271" y1="198" x2="271" y2="288"/><line x1="293" y1="198" x2="293" y2="288"/><line x1="315" y1="198" x2="315" y2="288"/><line x1="337" y1="198" x2="337" y2="288"/><line x1="359" y1="198" x2="359" y2="288"/><line x1="381" y1="198" x2="381" y2="288"/><line x1="403" y1="198" x2="403" y2="288"/><line x1="425" y1="198" x2="425" y2="288"/><line x1="447" y1="198" x2="447" y2="288"/><line x1="469" y1="198" x2="469" y2="288"/><line x1="491" y1="198" x2="491" y2="288"/><line x1="513" y1="198" x2="513" y2="288"/><line x1="535" y1="198" x2="535" y2="288"/><line x1="557" y1="198" x2="557" y2="288"/><line x1="579" y1="198" x2="579" y2="288"/><line x1="601" y1="198" x2="601" y2="288"/><line x1="623" y1="198" x2="623" y2="288"/>
+</g>
+<!-- head -->
+<polygon points="105,175 155,145 215,145 265,175 265,310 215,340 155,340 105,310" fill="url(#darkmetal)" stroke="#666" stroke-width="4"/>
+<polygon points="125,188 165,164 205,164 245,188 245,296 205,320 165,320 125,296" fill="#c8c8c8" opacity=".65"/>
+</g>
+<!-- nut -->
+<g transform="translate(365 335)">
+<polygon points="0,28 28,0 112,0 140,28 140,90 112,118 28,118 0,90" fill="url(#metal)" stroke="#666" stroke-width="4"/>
+<ellipse cx="70" cy="59" rx="40" ry="31" fill="#666"/>
+<ellipse cx="70" cy="59" rx="29" ry="22" fill="#f8f8f8"/>
+<ellipse cx="70" cy="59" rx="20" ry="15" fill="#666"/>
+</g>
+<!-- washer -->
+<g transform="translate(570 345)">
+<ellipse cx="90" cy="55" rx="90" ry="55" fill="url(#metal)" stroke="#666" stroke-width="4"/>
+<ellipse cx="90" cy="55" rx="38" ry="24" fill="white" stroke="#666" stroke-width="4"/>
+</g>
+</svg>
