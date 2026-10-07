@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEKIRO Catalogue</title>
+    <title>Material Catalogue</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,23 +11,26 @@
             margin: 20px;
             background: #f7f7f7;
         }
+        h1 { margin-bottom: 25px; }
+        .catalogue {
+            max-width: 700px;
+            margin: 30px auto;
+        }
         .container {
-            max-width: 600px;
-            margin: 40px auto;
+            margin: 20px 0;
             padding: 30px;
             border: 1px solid #ddd;
             border-radius: 10px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
             background: #fff;
         }
-        h1 { margin-bottom: 8px; }
         h2 { margin-top: 0; }
         ul {
             text-align: left;
             display: inline-block;
             margin: 10px auto;
         }
-        .pdf-button {
+        .button {
             display: inline-block;
             margin-top: 20px;
             padding: 12px 20px;
@@ -36,7 +39,7 @@
             text-decoration: none;
             border-radius: 6px;
         }
-        .pdf-button:hover { opacity: 0.85; }
+        .button:hover { opacity: 0.85; }
         .catalog-note {
             color: #666;
             font-size: 14px;
@@ -44,23 +47,47 @@
     </style>
 </head>
 <body>
-    <h1>TEKIRO Catalogue</h1>
+    <h1>Material Catalogue</h1>
 
-    <div class="container">
-        <h2>AU-LS2042 TEKIRO</h2>
-        <p><strong>Spesifikasi:</strong></p>
-        <ul>
-            <li>Jenis: Wrench Set</li>
-            <li>Brand: TEKIRO</li>
-            <li>Model: AU-LS2042</li>
-        </ul>
-        <p class="catalog-note">Klik tombol di bawah untuk membuka katalog PDF TEKIRO.</p>
-        <a class="pdf-button"
-           href="TEKIRO_CATALOGUE.pdf"
-           target="_blank"
-           rel="noopener">
-            Lihat Katalog PDF
-        </a>
+    <div class="catalogue">
+
+        <div class="container">
+            <h2>AU-LS2042 TEKIRO</h2>
+            <p><strong>Spesifikasi:</strong></p>
+            <ul>
+                <li>Jenis: Wrench Set</li>
+                <li>Brand: TEKIRO</li>
+                <li>Model: AU-LS2042</li>
+            </ul>
+            <p class="catalog-note">Klik tombol di bawah untuk membuka katalog PDF TEKIRO.</p>
+            <a class="button"
+               href="TEKIRO_CATALOGUE.pdf"
+               target="_blank"
+               rel="noopener">
+                Lihat Katalog PDF
+            </a>
+        </div>
+
+        <div class="container">
+            <h2>WATER MISTING MACHINE_60BAR</h2>
+            <p><strong>Spesifikasi:</strong></p>
+            <ul>
+                <li>Type: Sprayers</li>
+                <li>Pressure: 60 BAR</li>
+                <li>Material: Brass</li>
+                <li>Water Flow: 3 L/MIN</li>
+                <li>Tube Size: 50 Meter</li>
+                <li>Model: EW204H</li>
+            </ul>
+            <p class="catalog-note">Klik tombol di bawah untuk membuka katalog produk.</p>
+            <a class="button"
+               href="WATER_MISTING_MACHINE_60BAR_SINGLE.html"
+               target="_blank"
+               rel="noopener">
+                Lihat Produk
+            </a>
+        </div>
+
     </div>
 </body>
 </html>
