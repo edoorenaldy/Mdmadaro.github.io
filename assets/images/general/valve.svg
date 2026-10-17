@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="Valve">
+<defs>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset=".35" stop-color="#94a3b8"/><stop offset=".62" stop-color="#e2e8f0"/><stop offset="1" stop-color="#64748b"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#475569"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#0f172a" flood-opacity=".18"/></filter>
+</defs>
+<rect width="320" height="320" rx="24" fill="#f8fafc"/>
+<circle cx="160" cy="142" r="104" fill="#e2e8f0" opacity=".55"/>
+<g filter="url(#shadow)" stroke="#475569" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="91" y="121" width="138" height="51" rx="8" fill="url(#steel)"/>
+<polygon points="112,111 132,111 143,121 143,172 132,182 112,182 101,172 101,121" fill="url(#dark)"/>
+<polygon points="188,111 208,111 219,121 219,172 208,182 188,182 177,172 177,121" fill="url(#dark)"/>
+<rect x="148" y="82" width="24" height="45" fill="url(#steel)"/>
+<rect x="115" y="65" width="90" height="18" rx="7" fill="url(#dark)"/>
+<circle cx="160" cy="64" r="17" fill="url(#steel)"/></g>
+<text x="160" y="285" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#334155">VALVE</text>
+</svg>
