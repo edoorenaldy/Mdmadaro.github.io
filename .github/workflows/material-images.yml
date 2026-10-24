@@ -7,6 +7,9 @@ on:
     paths:
       - "scripts/build_material_images.py"
       - ".github/workflows/material-images.yml"
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
