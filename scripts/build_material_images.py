@@ -206,7 +206,7 @@ SOURCE_IMAGES: Dict[str, List[str]] = {
     "mattress_200_90_15": ["https://cdn.webshopapp.com/shops/307649/files/445994965/viking-choice-schuim-matras-h3-90x200cm-dikte-15cm.jpg"],
     "bed_frame_120_200": ["https://www.sconto.cz/content/images/product/variantRetina/arizona-iii_390112.jpg", "https://gomagcdn.ro/domains/bortisimpex.ro/files/product/original/pat-120x200-stejar-artisan-airon-320923.png"],
     "round_table_60_70": ["https://homemart.co.nz/cdn/shop/products/124bf6d6ae937d15bd4a95fc10cf09f3.jpg?v=1681430578&width=1090"],
-    "spring_mattress_75": ["https://www.homebase.co.uk/assets/bWFzdGVyfGltYWdlc3wxNDE0Mzd8aW1hZ2UvanBlZ3xoNjEvaGZjLzk4MjY1MjQ3MjUyNzgvMDcyODkxN181LmpwZ3w3MTNhYTZiNDE4OWY0NzBlODAxNjk2ZTVlZTEwZWUzYzRjYTU5YzAxMWM3NTgwMDZlN2M5NjMxYjQwZDQ4ZTM5/0728917-5.jpg"],
+    "spring_mattress_75": ["https://image.rakuten.co.jp/nitori/cabinet/20101/2010118_page1_014.jpg"],
     "mattress_195_95_20": ["https://kurashiec202009.itembox.design/product/093/000000009390/000000009390-13-l.jpg?t=20220930162538"],
     "single_bed_120_200": ["https://cdn.dedeman.ro/media/catalog/product/8/1/8128907_1.jpg?canvas=%3A&fit=bounds&height=&optimize=low&width="],
 }
@@ -323,7 +323,7 @@ FALLBACK_CATEGORIES: Dict[str, List[str]] = {
     "mattress_200_90_15": ["mattress"],
     "bed_frame_120_200": ["bed"],
     "round_table_60_70": ["round_table"],
-    "spring_mattress_75": ["mattress"],
+    # No fallback for spring mattresses: avoid substituting a bed-with-frame photo.
     "mattress_195_95_20": ["mattress"],
     "single_bed_120_200": ["bed"],
 }
