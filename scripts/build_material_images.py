@@ -206,7 +206,7 @@ SOURCE_IMAGES: Dict[str, List[str]] = {
     "mattress_200_90_15": ["https://cdn.webshopapp.com/shops/307649/files/445994965/viking-choice-schuim-matras-h3-90x200cm-dikte-15cm.jpg"],
     "bed_frame_120_200": ["https://www.sconto.cz/content/images/product/variantRetina/arizona-iii_390112.jpg", "https://gomagcdn.ro/domains/bortisimpex.ro/files/product/original/pat-120x200-stejar-artisan-airon-320923.png"],
     "round_table_60_70": ["https://homemart.co.nz/cdn/shop/products/124bf6d6ae937d15bd4a95fc10cf09f3.jpg?v=1681430578&width=1090"],
-    "spring_mattress_75": ["https://www.wilko.com/assets/bWFzdGVyfGltYWdlc3wyMDc5Mzd8aW1hZ2UvanBlZ3xoYWEvaDMyLzk4MjY1NjE4MjU1NjgvMDcyODg3MF82LmpwZ3xiNjg0NTI0ODJjOTI1NjI4YzE3Yjg2MzIwNTUxNDZkNjhlZTZmODBmMzUzZjIwZmQzZTVlYTExYWU4Y2I4ZWU4/0728870-6.jpg", "https://image.rakuten.co.jp/nitori/cabinet/20101/2010118_page1_014.jpg"],
+    "spring_mattress_75": ["https://www.wilko.com/assets/bWFzdGVyfGltYWdlc3wyMDc5Mzd8aW1hZ2UvanBlZ3xoYWEvaDMyLzk4MjY1NTYxODI1NTgvMDcyODg3MF82LmpwZ3xiNjg0NTI0ODJjOTI1NjI4YzE3Yjg2MzIwNTUxNDZkNjhlZTZmODBmMzUzZjIwZmQzZTVlYTExYWU4Y2I4ZWU4/0728870-6.jpg", "https://image.rakuten.co.jp/nitori/cabinet/20101/2010118_page1_014.jpg"],
     "mattress_195_95_20": ["https://kurashiec202009.itembox.design/product/093/000000009390/000000009390-13-l.jpg?t=20220930162538"],
     "single_bed_120_200": ["https://cdn.dedeman.ro/media/catalog/product/8/1/8128907_1.jpg?canvas=%3A&fit=bounds&height=&optimize=low&width="],
 }
@@ -350,12 +350,12 @@ def fetch_image(session: requests.Session, category: str) -> Tuple[Image.Image, 
                 # Remove measurement callouts/marketing copy from representative photos where possible.
                 w, h = source.size
                 if category == "bed_frame_120_200":
-                    source = source.crop((int(w * 0.06), int(h * 0.22), int(w * 0.95), int(h * 0.80)))
+                    source = source.crop((int(w * 0.10), int(h * 0.26), int(w * 0.93), int(h * 0.73)))
                 elif category == "mattress_195_95_20":
-                    source = source.crop((int(w * 0.01), int(h * 0.18), int(w * 0.93), int(h * 0.70)))
+                    source = source.crop((int(w * 0.02), int(h * 0.20), int(w * 0.91), int(h * 0.64)))
                 elif category == "spring_mattress_75":
                     if "wilko.com" in url:
-                        source = source.crop((int(w * 0.02), int(h * 0.20), int(w * 0.98), int(h * 0.70)))
+                        source = source.crop((int(w * 0.02), int(h * 0.20), int(w * 0.95), int(h * 0.67)))
                     else:
                         source = source.crop((int(w * 0.22), int(h * 0.50), int(w * 0.99), int(h * 0.93)))
 
