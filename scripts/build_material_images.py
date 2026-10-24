@@ -201,10 +201,31 @@ SOURCE_IMAGES: Dict[str, List[str]] = {
     "ironing_board": ["https://cdn.songmicswalldecor.com/cdn/10857/2025/10/31/main-SONGMICS-Ironing-Board-Foldable-Iron-Board-Height-Adjustable-up-to-35-Inches-with-4-Layered-Cover-and-Pad-Iron-Rest-Hook-Steel-XLegs-for-Home-Laundry--4039101-8847.jpg"],
     "baby_gift": ["https://tinywelcome.co.uk/cdn/shop/files/Neutral_Bew_Baby_Gift_Hamper_2.png?v=1769100633&width=1946"],
     "training_chair": ["https://icdn.tradew.com/file/202201/1575313/png/7729729.png?x-oss-process=image%2Fquality%2CQ_90"],
+    # Material-specific image sources for the items that were reported as mismatched.
+    "backdrop_cabinet": ["https://antdisplay.com/pub/media/wysiwyg/1_76.jpg", "https://simpolo-web.s3.ap-south-1.amazonaws.com/uploads/media/blog/Closed-Storage-Showcase-for-a-Clutter-Free-Look.jpeg"],
+    "mattress_200_90_15": ["https://cdn.webshopapp.com/shops/307649/files/445994965/viking-choice-schuim-matras-h3-90x200cm-dikte-15cm.jpg"],
+    "bed_frame_120_200": ["https://www.sconto.cz/content/images/product/variantRetina/arizona-iii_390112.jpg", "https://gomagcdn.ro/domains/bortisimpex.ro/files/product/original/pat-120x200-stejar-artisan-airon-320923.png"],
+    "round_table_60_70": ["https://homemart.co.nz/cdn/shop/products/124bf6d6ae937d15bd4a95fc10cf09f3.jpg?v=1681430578&width=1090"],
+    "spring_mattress_75": ["https://www.homebase.co.uk/assets/bWFzdGVyfGltYWdlc3wxNDE0Mzd8aW1hZ2UvanBlZ3xoNjEvaGZjLzk4MjY1MjQ3MjUyNzgvMDcyODkxN181LmpwZ3w3MTNhYTZiNDE4OWY0NzBlODAxNjk2ZTVlZTEwZWUzYzRjYTU5YzAxMWM3NTgwMDZlN2M5NjMxYjQwZDQ4ZTM5/0728917-5.jpg"],
+    "mattress_195_95_20": ["https://kurashiec202009.itembox.design/product/093/000000009390/000000009390-13-l.jpg?t=20220930162538"],
+    "single_bed_120_200": ["https://cdn.dedeman.ro/media/catalog/product/8/1/8128907_1.jpg?canvas=%3A&fit=bounds&height=&optimize=low&width="],
 }
 
 def categorize(material: str, desc: str) -> str:
     d = desc.upper()
+    # Exact Material Number overrides prevent similar furniture categories from sharing the wrong photo.
+    material_specific = {
+        "56101530-0017": "backdrop_cabinet",
+        "56101508-0009": "mattress_200_90_15",
+        "56101539-0005": "bed_frame_120_200",
+        "56101519-0019": "round_table_60_70",
+        "56101515-0017": "spring_mattress_75",
+        "56101515-0018": "spring_mattress_75",
+        "56101515-0003": "mattress_195_95_20",
+        "56101515-0001": "single_bed_120_200",
+    }
+    if material in material_specific:
+        return material_specific[material]
     if "SOUND LEVEL METER" in d:
         return "sound_meter"
     if "BABY GIFT" in d:
@@ -298,6 +319,13 @@ FALLBACK_CATEGORIES: Dict[str, List[str]] = {
     "kitchen_cabinet": ["credenza", "filing_cabinet"],
     "training_chair": ["office_chair", "plastic_chair"],
     "ironing_board": ["desk"],
+    "backdrop_cabinet": ["credenza", "filing_cabinet"],
+    "mattress_200_90_15": ["mattress"],
+    "bed_frame_120_200": ["bed"],
+    "round_table_60_70": ["round_table"],
+    "spring_mattress_75": ["mattress"],
+    "mattress_195_95_20": ["mattress"],
+    "single_bed_120_200": ["bed"],
 }
 
 def fetch_image(session: requests.Session, category: str) -> Tuple[Image.Image, str]:
