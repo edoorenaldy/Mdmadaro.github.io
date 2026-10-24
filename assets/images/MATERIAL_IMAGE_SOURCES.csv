@@ -1,4 +1,4 @@
-﻿Material Number,Material Description,Image Category,Image File,Image Source URL,File Size (bytes),Status
+Material Number,Material Description,Image Category,Image File,Image Source URL,File Size (bytes),Status
 56101536-0002,SOUND LEVEL METER ADJ TRIPOD_170CM_5KG,sound_meter,assets/images/56101536-0002.jpg,https://media.pt-cdn.de/production/public/media/d6/e9/bb/1616414910/8005_Stativ.jpg,2506,OK
 56101530-0017,BACKDROP CABINET_3000X500X2570MM,credenza,assets/images/56101530-0017.jpg,https://www.worthingtondirect.com/media/catalog/category/jsi-lok-storage-closed-without-top-hero.jpg,1567,OK
 56101703-0046,RECEPTION DESK_3000X600X500MM,reception_desk,assets/images/56101703-0046.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
@@ -27,7 +27,7 @@
 56101703-0039,OFFICE DESK WITHOUT SCREEN_3200X750MM,desk,assets/images/56101703-0039.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101720-0009,OFFICE CHAIR_WIDE HEADREST_WITH WHEEL,office_chair,assets/images/56101720-0009.jpg,https://bf1af2.akinoncloudcdn.com/products/2024/10/09/157138/716d15a3-d8e8-4dc3-8736-1325686f38ad.jpg,2108,OK
 56101502-0019,FABRIC SOFA_THREE-SEATER,sofa,assets/images/56101502-0019.jpg,https://images.tcdn.com.br/img/img_prod/464234/sofa_3_lugares_para_sala_living_com_puff_280cm_morris_f04_linho_tramado_bege_lyam_decor_77751_1_0ae6dfa4677e5f4437a52a9fa95ff91c.jpg,1543,OK
-56101519-0038,MEETING TABLE_200X120X75CM,meeting_table,assets/images/56101519-0038.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
+56101519-0038,MEETING TABLE_200X120X75CM,meeting_table,assets/images/56101519-0038.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/meeting_table_reference.jpg,1765,OK
 56101531-0006,SHOE CABINET_190X40X135CM_SLIDING_ACP,shoe_rack,assets/images/56101531-0006.jpg,https://down-tw.img.susercontent.com/file/sg-11134201-7rbkg-lq8917jbfs043d,2882,OK
 56101531-0005,SHOE RACK_60X30X50_4 TIER_METAL,shoe_rack,assets/images/56101531-0005.jpg,https://down-tw.img.susercontent.com/file/sg-11134201-7rbkg-lq8917jbfs043d,2882,OK
 56101519-0037,TABLE_100X40X75 CM_3 TIER_WOOD,desk,assets/images/56101519-0037.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
@@ -47,10 +47,10 @@
 56101504-0011,1-SEATER CHAIR_WITH BACKREST_PLASTIC,plastic_chair,assets/images/56101504-0011.jpg,https://images.tcdn.com.br/img/img_prod/554605/cadeira_de_plastico_branca_empilhavel_bistro_antares_ate_154kg_93107_1_adc14cc2b0f5fea9fd4d6ac82ac17fc0.jpg,1288,OK
 56101504-0012,1-SEATER CHAIR_WITH_BACKREST_METAL,steel_chair,assets/images/56101504-0012.jpg,https://image.made-in-china.com/2f0j00LiUkYMEaqnqp/High-Quality-Stainless-Steel-Single-Seat-Chair-Hospital-Bank-Waiting-Area-Reception-Chairs.jpg,2262,OK
 56101515-0019,SPRING BED_160X200 CM_CHIRO TYPE,bed,assets/images/56101515-0019.jpg,User-provided spring bed image,2776,OK
-56101519-0014,MEETING TABLE_1800X12000MM,meeting_table,assets/images/56101519-0014.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
-56101519-0015,MEETING TABLE_2400X1000MM,meeting_table,assets/images/56101519-0015.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
-56101519-0016,MEETING TABLE_2400X900MM,meeting_table,assets/images/56101519-0016.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
-56101519-0017,MEETING TABLE_3600X1200MM,meeting_table,assets/images/56101519-0017.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
+56101519-0014,MEETING TABLE_1800X12000MM,meeting_table,assets/images/56101519-0014.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/meeting_table_reference.jpg,1765,OK
+56101519-0015,MEETING TABLE_2400X1000MM,meeting_table,assets/images/56101519-0015.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/meeting_table_reference.jpg,1765,OK
+56101519-0016,MEETING TABLE_2400X900MM,meeting_table,assets/images/56101519-0016.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/meeting_table_reference.jpg,1765,OK
+56101519-0017,MEETING TABLE_3600X1200MM,meeting_table,assets/images/56101519-0017.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/meeting_table_reference.jpg,1765,OK
 56101519-0018,ROUND TABLE_1000MM DIA,round_table,assets/images/56101519-0018.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
 56101519-0019,ROUND TABLE_600MM DIA_700MM HEIGHT,round_table,assets/images/56101519-0019.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
 56101519-0020,TABLE_600X1800MM,desk,assets/images/56101519-0020.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
@@ -87,8 +87,8 @@
 56101504-0008,4-SEATER CHAIR_WITH BACKREST_IRON STEEL,steel_chair,assets/images/56101504-0008.jpg,https://image.made-in-china.com/2f0j00LiUkYMEaqnqp/High-Quality-Stainless-Steel-Single-Seat-Chair-Hospital-Bank-Waiting-Area-Reception-Chairs.jpg,2262,OK
 56101530-0006,FILE CABINET_390X800X2080_METAL,filing_cabinet,assets/images/56101530-0006.jpg,https://www.fubaofurniture.com/wp-content/uploads/2021/09/vertical-filing-cabinet-4-drawers-1.jpg,1411,OK
 56101519-0006,ROUND TABLE_1000MM DIA_750MM HEIGHT,round_table,assets/images/56101519-0006.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
-56101519-0007,MEETING TABLE_1200X2400MM,meeting_table,assets/images/56101519-0007.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
-56101519-0009,MEETING TABLE_2000X800MM,meeting_table,assets/images/56101519-0009.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
+56101519-0007,MEETING TABLE_1200X2400MM,meeting_table,assets/images/56101519-0007.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/meeting_table_reference.jpg,1765,OK
+56101519-0009,MEETING TABLE_2000X800MM,meeting_table,assets/images/56101519-0009.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/meeting_table_reference.jpg,1765,OK
 56101703-0007,OFFICE DESK SET_600X1200MM,desk,assets/images/56101703-0007.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101703-0008,OFFICE DESK WITHOUT SCREEN_600X1000MM,desk,assets/images/56101703-0008.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101720-0003,OFFICE CHAIR HEADREST_WITH WHEEL,office_chair,assets/images/56101720-0003.jpg,https://bf1af2.akinoncloudcdn.com/products/2024/10/09/157138/716d15a3-d8e8-4dc3-8736-1325686f38ad.jpg,2108,OK
@@ -135,7 +135,7 @@
 56101807-0001,BABY GIFT PACKAGE,baby_gift,assets/images/56101807-0001.jpg,https://tinywelcome.co.uk/cdn/shop/files/Neutral_Bew_Baby_Gift_Hamper_2.png?v=1769100633&width=1946,2500,OK
 56101502-0001,SOFA,sofa,assets/images/56101502-0001.jpg,https://images.tcdn.com.br/img/img_prod/464234/sofa_3_lugares_para_sala_living_com_puff_280cm_morris_f04_linho_tramado_bege_lyam_decor_77751_1_0ae6dfa4677e5f4437a52a9fa95ff91c.jpg,1543,OK
 56101508-0001,MATRAS,mattress,assets/images/56101508-0001.jpg,https://media.homeboxstores.com/i/homebox/167196533-167196533-HMBX15082024N_06-2100.jpg?%24prodimg-m-sqr-pdp-2x%24=&%24quality-standard%24=&fmt=auto&sm=c,2128,OK
-56101519-0002,MEETING TABLE,meeting_table,assets/images/56101519-0002.jpg,https://www.projectxoffice.co.uk/image/cache/catalog/data/tab1100mm-small-round-wooden-meeting-table-oak-550x550.jpg,1940,OK
+56101519-0002,MEETING TABLE,meeting_table,assets/images/56101519-0002.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/meeting_table_reference.jpg,1765,OK
 56101519-0003,WORK TABLE,desk,assets/images/56101519-0003.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101543-0001,DINING TABLE,table_set,assets/images/56101543-0001.jpg,https://www.ewfdirect.com/cdn/shop/products/NDVA5-OAK-W_420513d0-8685-40d8-9472-a8a07b535c2d_1200x1200.jpg?v=1661979364,2580,OK
 56101720-0004,CHAIR MEETING WITHOUT HANDSTAND,office_chair,assets/images/56101720-0004.jpg,https://bf1af2.akinoncloudcdn.com/products/2024/10/09/157138/716d15a3-d8e8-4dc3-8736-1325686f38ad.jpg,2108,OK
