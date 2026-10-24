@@ -15,9 +15,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: material-catalogue-images
-  cancel-in-progress: false
 
 jobs:
   download-compress-commit:
