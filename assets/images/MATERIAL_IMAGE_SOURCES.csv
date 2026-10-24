@@ -1,6 +1,6 @@
 ﻿Material Number,Material Description,Image Category,Image File,Image Source URL,File Size (bytes),Status
 56101536-0002,SOUND LEVEL METER ADJ TRIPOD_170CM_5KG,sound_meter,assets/images/56101536-0002.jpg,https://media.pt-cdn.de/production/public/media/d6/e9/bb/1616414910/8005_Stativ.jpg,2506,OK
-56101530-0017,BACKDROP CABINET_3000X500X2570MM,backdrop_cabinet,assets/images/56101530-0017.jpg,https://simpolo-web.s3.ap-south-1.amazonaws.com/uploads/media/blog/Closed-Storage-Showcase-for-a-Clutter-Free-Look.jpeg,2698,OK
+56101530-0017,BACKDROP CABINET_3000X500X2570MM,backdrop_cabinet,assets/images/56101530-0017.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/backdrop_cabinet_reference.jpg,2358,OK
 56101703-0046,RECEPTION DESK_3000X600X500MM,reception_desk,assets/images/56101703-0046.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101531-0012,SHOE RACK CABINET_40X26X89CM_4D_PLASTIC,shoe_rack,assets/images/56101531-0012.jpg,https://down-tw.img.susercontent.com/file/sg-11134201-7rbkg-lq8917jbfs043d,2882,OK
 56101519-0046,ROUND TABLE C/W 4-CHAIR_100X74CM_TOP MDF,table_set,assets/images/56101519-0046.jpg,https://www.ewfdirect.com/cdn/shop/products/NDVA5-OAK-W_420513d0-8685-40d8-9472-a8a07b535c2d_1200x1200.jpg?v=1661979364,2580,OK
@@ -43,7 +43,7 @@
 56101502-0011,SOFA FABRIC SET_1300X760X730MM,sofa,assets/images/56101502-0011.jpg,https://images.tcdn.com.br/img/img_prod/464234/sofa_3_lugares_para_sala_living_com_puff_280cm_morris_f04_linho_tramado_bege_lyam_decor_77751_1_0ae6dfa4677e5f4437a52a9fa95ff91c.jpg,1543,OK
 56101502-0012,SOFA FABRIC SET_1600X960X800MM,sofa,assets/images/56101502-0012.jpg,https://images.tcdn.com.br/img/img_prod/464234/sofa_3_lugares_para_sala_living_com_puff_280cm_morris_f04_linho_tramado_bege_lyam_decor_77751_1_0ae6dfa4677e5f4437a52a9fa95ff91c.jpg,1543,OK
 56101502-0013,SOFA FABRIC SET_TWO SEATER_CURVED,sofa,assets/images/56101502-0013.jpg,https://images.tcdn.com.br/img/img_prod/464234/sofa_3_lugares_para_sala_living_com_puff_280cm_morris_f04_linho_tramado_bege_lyam_decor_77751_1_0ae6dfa4677e5f4437a52a9fa95ff91c.jpg,1543,OK
-56101504-0010,2-SEATER CHAIR WITH TABLE,plastic_chair,assets/images/56101504-0010.jpg,https://images.tcdn.com.br/img/img_prod/554605/cadeira_de_plastico_branca_empilhavel_bistro_antares_ate_154kg_93107_1_adc14cc2b0f5fea9fd4d6ac82ac17fc0.jpg,1288,OK
+56101504-0010,2-SEATER CHAIR WITH TABLE,two_seater_chair_table,assets/images/56101504-0010.jpg,https://image.made-in-china.com/2f0j00LiUkYMEaqnqp/High-Quality-Stainless-Steel-Single-Seat-Chair-Hospital-Bank-Waiting-Area-Reception-Chairs.jpg,2262,OK
 56101504-0011,1-SEATER CHAIR_WITH BACKREST_PLASTIC,plastic_chair,assets/images/56101504-0011.jpg,https://images.tcdn.com.br/img/img_prod/554605/cadeira_de_plastico_branca_empilhavel_bistro_antares_ate_154kg_93107_1_adc14cc2b0f5fea9fd4d6ac82ac17fc0.jpg,1288,OK
 56101504-0012,1-SEATER CHAIR_WITH_BACKREST_METAL,steel_chair,assets/images/56101504-0012.jpg,https://image.made-in-china.com/2f0j00LiUkYMEaqnqp/High-Quality-Stainless-Steel-Single-Seat-Chair-Hospital-Bank-Waiting-Area-Reception-Chairs.jpg,2262,OK
 56101515-0019,SPRING BED_160X200 CM_CHIRO TYPE,bed,assets/images/56101515-0019.jpg,https://media.homeboxstores.com/i/homebox/167196533-167196533-HMBX15082024N_06-2100.jpg?%24prodimg-m-sqr-pdp-2x%24=&%24quality-standard%24=&fmt=auto&sm=c,2128,OK
@@ -69,8 +69,8 @@
 56101703-0017,OFFICE DESK SET WITH SCREEN_1800X1200MM,desk,assets/images/56101703-0017.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101703-0018,OFFICE DESK SET WITH SCREEN_600X4000MM,desk,assets/images/56101703-0018.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101703-0019,OFFICE DESK SET WITH SCREEN_600X4800MM,desk,assets/images/56101703-0019.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
-56101703-0020,OFFICE DESK  W/ APART CREDENZA_70X150CM,credenza,assets/images/56101703-0020.jpg,https://www.worthingtondirect.com/media/catalog/category/jsi-lok-storage-closed-without-top-hero.jpg,1567,OK
-56101703-0021,OFFICE DESK  W/ BACK CREDENZA_70X150CM,credenza,assets/images/56101703-0021.jpg,https://www.worthingtondirect.com/media/catalog/category/jsi-lok-storage-closed-without-top-hero.jpg,1567,OK
+56101703-0020,OFFICE DESK  W/ APART CREDENZA_70X150CM,office_desk_apart_credenza,assets/images/56101703-0020.jpg,https://www.soburo.com/19682-medium_default/bureau-individuel-sur-credence-so-vicar.jpg,1464,OK
+56101703-0021,OFFICE DESK  W/ BACK CREDENZA_70X150CM,office_desk_back_credenza,assets/images/56101703-0021.jpg,https://s7d9.scene7.com/is/image/NationalBusinessFurniture/BES_13496_6_BarkGraySlate?hei=750&wid=750,2798,OK
 56101703-0022,OFFICE DESK  W/ JOIN CREDENZA_70X150CM,credenza,assets/images/56101703-0022.jpg,https://www.worthingtondirect.com/media/catalog/category/jsi-lok-storage-closed-without-top-hero.jpg,1567,OK
 56101703-0023,OFFICE DESK W/ TOPBACK CREDENZA_70X150CM,credenza,assets/images/56101703-0023.jpg,https://www.worthingtondirect.com/media/catalog/category/jsi-lok-storage-closed-without-top-hero.jpg,1567,OK
 56101703-0024,OFFICE DESK WITH SCREEN_750X3200MM,desk,assets/images/56101703-0024.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
@@ -93,7 +93,7 @@
 56101703-0008,OFFICE DESK WITHOUT SCREEN_600X1000MM,desk,assets/images/56101703-0008.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101720-0003,OFFICE CHAIR HEADREST_WITH WHEEL,office_chair,assets/images/56101720-0003.jpg,https://bf1af2.akinoncloudcdn.com/products/2024/10/09/157138/716d15a3-d8e8-4dc3-8736-1325686f38ad.jpg,2108,OK
 56101720-0005,OFFICE CHAIR_WITH WHEEL,office_chair,assets/images/56101720-0005.jpg,https://bf1af2.akinoncloudcdn.com/products/2024/10/09/157138/716d15a3-d8e8-4dc3-8736-1325686f38ad.jpg,2108,OK
-56101720-0006,OFFICE CHAIR_WITHOUT WHEEL,office_chair,assets/images/56101720-0006.jpg,https://bf1af2.akinoncloudcdn.com/products/2024/10/09/157138/716d15a3-d8e8-4dc3-8736-1325686f38ad.jpg,2108,OK
+56101720-0006,OFFICE CHAIR_WITHOUT WHEEL,office_chair_without_wheel,assets/images/56101720-0006.jpg,https://ecdn6.globalso.com/upload/p/554/image_product/2023-12/656bc4d81da9142639.jpg,1966,OK
 56101504-0006,LEATHER CHAIR_58X54X106 CM_BLACK,lounge_chair,assets/images/56101504-0006.jpg,https://irrorwxhkpnjli5p-static.micyjz.com/cloud/ljBprKnplmSRilqipmrlkp/8036027.png,2142,OK
 56101702-0003,FILE CABINET SWING_4 DOORS_180X90X40 CM,filing_cabinet,assets/images/56101702-0003.jpg,https://www.fubaofurniture.com/wp-content/uploads/2021/09/vertical-filing-cabinet-4-drawers-1.jpg,1411,OK
 56101504-0005,3-SEATER CHAIR_STAINLESS STEEL MATERIAL,steel_chair,assets/images/56101504-0005.jpg,https://image.made-in-china.com/2f0j00LiUkYMEaqnqp/High-Quality-Stainless-Steel-Single-Seat-Chair-Hospital-Bank-Waiting-Area-Reception-Chairs.jpg,2262,OK
@@ -125,7 +125,7 @@
 56101504-0002,CHAIR D-320,plastic_chair,assets/images/56101504-0002.jpg,https://images.tcdn.com.br/img/img_prod/554605/cadeira_de_plastico_branca_empilhavel_bistro_antares_ate_154kg_93107_1_adc14cc2b0f5fea9fd4d6ac82ac17fc0.jpg,1288,OK
 56101504-0003,OFFICE CHAIR_BLACK,office_chair,assets/images/56101504-0003.jpg,https://bf1af2.akinoncloudcdn.com/products/2024/10/09/157138/716d15a3-d8e8-4dc3-8736-1325686f38ad.jpg,2108,OK
 56101520-0001,LOCKER 6 DOOR 180X90X45CM,locker,assets/images/56101520-0001.jpg,https://img.crazysales.com.au/products_pictures/378/378720_3416023_HD.jpg,2993,OK
-56101702-0002,FILE CABINET SLIDING 180X90X39CM,filing_cabinet,assets/images/56101702-0002.jpg,https://www.fubaofurniture.com/wp-content/uploads/2021/09/vertical-filing-cabinet-4-drawers-1.jpg,1411,OK
+56101702-0002,FILE CABINET SLIDING 180X90X39CM,file_cabinet_sliding,assets/images/56101702-0002.jpg,https://img.gkbcdn.com/s3/p/2022-02-11/Office-Cabinet-with-Sliding-Door-Light-Grey-90x40x180-cm-Steel-496409-8.jpg,1399,OK
 56101703-0002,DESK BEECH CT3C 240X120X75,desk,assets/images/56101703-0002.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101703-0003,DESK HIGHPOINT ONE OD032 (120CM)-PD 133,desk,assets/images/56101703-0003.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101515-0001,SINGLE BED_120 X 200CM,single_bed_120_200,assets/images/56101515-0001.jpg,https://cdn.dedeman.ro/media/catalog/product/8/1/8128907_1.jpg?canvas=%3A&fit=bounds&height=&optimize=low&width=,1001,OK
@@ -138,7 +138,7 @@
 56101519-0002,MEETING TABLE,meeting_table,assets/images/56101519-0002.jpg,https://raw.githubusercontent.com/edoorenaldy/Mdmadaro.github.io/main/assets/images/meeting_table_reference.jpg,1730,OK
 56101519-0003,WORK TABLE,desk,assets/images/56101519-0003.jpg,https://cdn.shopify.com/s/files/1/0083/0436/1557/files/Untitled-1_30d16618-b9b9-40b8-b0a1-9512b06a4c02_600x600.png?v=1691714008,1535,OK
 56101543-0001,DINING TABLE,table_set,assets/images/56101543-0001.jpg,https://www.ewfdirect.com/cdn/shop/products/NDVA5-OAK-W_420513d0-8685-40d8-9472-a8a07b535c2d_1200x1200.jpg?v=1661979364,2580,OK
-56101720-0004,CHAIR MEETING WITHOUT HANDSTAND,office_chair,assets/images/56101720-0004.jpg,https://bf1af2.akinoncloudcdn.com/products/2024/10/09/157138/716d15a3-d8e8-4dc3-8736-1325686f38ad.jpg,2108,OK
+56101720-0004,CHAIR MEETING WITHOUT HANDSTAND,meeting_chair_without_armrest,assets/images/56101720-0004.jpg,https://icdn.tradew.com/file/202201/1575313/png/7729729.png?x-oss-process=image%2Fquality%2CQ_90,2765,OK
 56101504-0000,CHAIR,plastic_chair,assets/images/56101504-0000.jpg,https://images.tcdn.com.br/img/img_prod/554605/cadeira_de_plastico_branca_empilhavel_bistro_antares_ate_154kg_93107_1_adc14cc2b0f5fea9fd4d6ac82ac17fc0.jpg,1288,OK
 56101515-0000,BED,bed,assets/images/56101515-0000.jpg,https://media.homeboxstores.com/i/homebox/167196533-167196533-HMBX15082024N_06-2100.jpg?%24prodimg-m-sqr-pdp-2x%24=&%24quality-standard%24=&fmt=auto&sm=c,2128,OK
 56101520-0000,LOCKER,locker,assets/images/56101520-0000.jpg,https://img.crazysales.com.au/products_pictures/378/378720_3416023_HD.jpg,2993,OK
