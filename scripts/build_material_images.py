@@ -233,11 +233,13 @@ def categorize(material: str, desc: str) -> str:
         return "filing_cabinet"
     if "FURNITURE SET" in d:
         return "table_set"
+    if "TABLE C/W 4-CHAIR" in d:
+        return "table_set"
     if "KITCHEN TABLE" in d:
         return "kitchen_table"
     if "BUNK BED" in d:
         return "bunk_bed"
-    if "MATTRESS" in d or "MATRESS" in d:
+    if "MATTRESS" in d or "MATRESS" in d or "MATRAS" in d:
         return "mattress"
     if "BED" in d or material.startswith("56101515-") or material.startswith("56101539-"):
         return "bed"
