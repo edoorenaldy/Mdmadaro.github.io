@@ -306,7 +306,7 @@ def fetch_image(session: requests.Session, category: str) -> Tuple[Image.Image, 
     for source_category in source_categories:
         for url in SOURCE_IMAGES.get(source_category, []):
             try:
-                response = session.get(url, timeout=35, headers=HEADERS)
+                response = session.get(url, timeout=(4, 8), headers=HEADERS)
                 response.raise_for_status()
                 if "image" not in response.headers.get("Content-Type", "").lower() and not response.content.startswith((b"\xff\xd8", b"\x89PNG", b"RIFF")):
                     raise ValueError("Response is not an image")
