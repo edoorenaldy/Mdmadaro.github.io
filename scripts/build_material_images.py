@@ -275,28 +275,54 @@ def categorize(material: str, desc: str) -> str:
         return "meeting_table" if "MEETING" in d else "desk"
     return "desk"
 
+FALLBACK_CATEGORIES: Dict[str, List[str]] = {
+    "reception_desk": ["desk", "credenza"],
+    "shoe_rack": ["locker", "filing_cabinet"],
+    "table_set": ["round_table", "meeting_table"],
+    "desk": ["reception_desk", "credenza"],
+    "filing_cabinet": ["credenza", "locker"],
+    "round_table": ["meeting_table", "table_set"],
+    "meeting_table": ["desk", "round_table"],
+    "kitchen_table": ["meeting_table", "desk"],
+    "mattress": ["bed"],
+    "locker": ["filing_cabinet", "credenza"],
+    "bed": ["mattress"],
+    "bunk_bed": ["bed", "mattress"],
+    "plastic_chair": ["steel_chair", "training_chair"],
+    "office_chair": ["training_chair", "plastic_chair"],
+    "steel_chair": ["plastic_chair", "training_chair"],
+    "sofa": ["lounge_chair"],
+    "lounge_chair": ["sofa"],
+    "credenza": ["filing_cabinet", "kitchen_cabinet"],
+    "dressing_table": ["desk", "credenza"],
+    "kitchen_cabinet": ["credenza", "filing_cabinet"],
+    "training_chair": ["office_chair", "plastic_chair"],
+    "ironing_board": ["desk"],
+}
+
 def fetch_image(session: requests.Session, category: str) -> Tuple[Image.Image, str]:
     errors = []
-    for url in SOURCE_IMAGES.get(category, []) + SOURCE_IMAGES.get("desk", []):
-        try:
-            response = session.get(url, timeout=35, headers=HEADERS)
-            response.raise_for_status()
-            if "image" not in response.headers.get("Content-Type", "").lower() and not response.content.startswith((b"\xff\xd8", b"\x89PNG", b"RIFF")):
-                raise ValueError("Response is not an image")
-            source = Image.open(io.BytesIO(response.content))
-            source.load()
-            if source.mode in ("RGBA", "LA"):
-                background = Image.new("RGB", source.size, "white")
-                background.paste(source, mask=source.getchannel("A"))
-                source = background
-            else:
-                source = source.convert("RGB")
-            source.thumbnail((120, 120), Image.Resampling.LANCZOS)
-            return source, url
-        except Exception as exc:
-            errors.append(f"{url}: {exc}")
+    source_categories = [category] + FALLBACK_CATEGORIES.get(category, [])
+    for source_category in source_categories:
+        for url in SOURCE_IMAGES.get(source_category, []):
+            try:
+                response = session.get(url, timeout=35, headers=HEADERS)
+                response.raise_for_status()
+                if "image" not in response.headers.get("Content-Type", "").lower() and not response.content.startswith((b"\xff\xd8", b"\x89PNG", b"RIFF")):
+                    raise ValueError("Response is not an image")
+                source = Image.open(io.BytesIO(response.content))
+                source.load()
+                if source.mode in ("RGBA", "LA"):
+                    background = Image.new("RGB", source.size, "white")
+                    background.paste(source, mask=source.getchannel("A"))
+                    source = background
+                else:
+                    source = source.convert("RGB")
+                source.thumbnail((120, 120), Image.Resampling.LANCZOS)
+                return source, url
+            except Exception as exc:
+                errors.append(f"{url}: {exc}")
     raise RuntimeError(f"Could not retrieve image for {category}: " + " | ".join(errors))
-
 def make_jpeg(image: Image.Image) -> bytes:
     for dimension in (120, 100, 90, 80, 72, 64):
         resized = image.copy()
